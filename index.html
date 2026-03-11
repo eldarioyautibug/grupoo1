@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto de Estadística</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/logofigempa.avif" alt="Logo FIGEMPA" />
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#" class="active">Inicio</a></li>
+        <li><a href="#">Estadística Descriptiva</a></li>
+        <li><a href="#">Estadística Inferencial</a></li>
+        <li><a href="#">Modelos de Regresión</a></li>
+        <li><a href="#">Machine Learning</a></li>
+        <li><a href="#">Más</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Proyecto de Estadística</h1>
+        <p>Producción de petróleo y gas en Brasil</p>
+      </div>
+    </section>
+
+    <section class="intro">
+  <div class="intro-image">
+    <img src="img/imagen2.jpg" alt="Imagen representativa del proyecto" />
+  </div>
+
+  <div class="intro-content">
+    <article class="info-block">
+      <div class="number">1</div>
+      <div>
+        <h2>Planteamiento del Problema</h2>
+        <p>
+          La información sobre la exploración y explotación de hidrocarburos en Brasil es dispersa,
+          lo que dificulta entender su evolución espacial y temporal. Se requiere un análisis
+          estadístico que organice los datos históricos (1940–2018) para identificar patrones y
+          apoyar la planificación energética.
+        </p>
+        <a href="#" class="btn-primary">Dataset</a>
+      </div>
+    </article>
+
+    <article class="info-block">
+      <div class="number">2</div>
+      <div>
+        <h2>Objetivo General</h2>
+        <p>
+          Aplicar herramientas estadísticas y de Machine Learning para analizar actividades de
+          exploración y/o explotación de hidrocarburos en Brasil mediante herramientas computacionales.
+        </p>
+      </div>
+    </article>
+
+    <article class="info-block">
+      <div class="number">3</div>
+      <div>
+        <h2>Objetivo Específico</h2>
+        <p>1. Conocer la situación actual sobre la exploración y explotación de hidrocarburos en Brasil, a través de sus características más importantes y medidas estadísticas.</p>
+        <p>2. Emplear un modelo de probabilidad para establecer conclusiones de la exploración y explotación de hidrocarburos en Brasil a partir de los resultados de la muestra.</p>
+        <p>3. Deducir relaciones entre variables de la exploración y explotación de hidrocarburos en Brasil con el fin de realizar estimaciones.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="mapa-ubicacion" id="mapa-ubicacion">
+  <div class="mapa-texto">
+    <h2 class="mapa-titulo">MAPA DE<br>UBICACIÓN</h2>
+    <a href="img/mapadebrazilqgis.jpeg" class="btn-mapa" target="_blank">Descargar PDF</a>
+  </div>
+
+  <div class="mapa-imagen">
+    <img src="img/mapadebrazilqgis.jpeg" alt="Mapa de ubicación" />
+  </div>
+</section>
+
+<section class="mapa-interactivo" id="mapa-interactivo">
+  <div class="interactivo-header">
+    <h2 class="titulo-outline">MAPA INTERACTIVO</h2>
+    <p>Explora los datos espaciales y la distribución de los pozos a través de nuestro visor web construido con QGIS.</p>
+  </div>
+  
+  <div class="mapa-container">
+    <iframe src="mapa_web/index.html" title="Mapa Web QGIS Pozos Brasil"></iframe>
+  </div>
+</section>
+  </main>
+
+  <footer class="pie-pagina">
+    <div class="contenedor-footer">
+        <div class="col-footer">
+            <h3>Integrantes</h3>
+            <ul class="lista-integrantes">
+                <li>Elkin Yautibug</li>
+                <li>Anahi Macias</li>
+                <li>Denis Tercero</li>
+                <li>Benjamin Salazar</li>
+            </ul>
+        </div>
+
+        <div class="col-footer">
+            <h3>Contacto:</h3>
+            <p>0962569683</p>
+            <p>Quito, Ecuador</p>
+        </div>
+
+        <div class="col-footer">
+            <h3>Síguenos</h3>
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com/figempa_uce/" target="_blank" class="icono-red"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/Figempa/?locale=es_LA" target="_blank" class="icono-red"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/Figempa_UCE" target="_blank" class="icono-red"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Autor: Elkin Yautibug | FIGEMPA - UCE</p>
+    </div>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
